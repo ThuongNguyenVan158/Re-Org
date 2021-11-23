@@ -19,4 +19,5 @@ RUN dotnet publish "ReOrg.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ReOrg.dll"]
+# ENTRYPOINT ["dotnet", "ReOrg.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet ReOrg.dll
