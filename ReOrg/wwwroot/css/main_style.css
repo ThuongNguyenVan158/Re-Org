@@ -20,7 +20,7 @@ body {
 ===================================*/
 
 header {
-    background: url('../media/web_bg1.png') no-repeat center center;
+    background: url('../medias/web_bg1.png') no-repeat center center;
     background-size: cover;
     height: 800px;
     text-align: center;
@@ -117,7 +117,7 @@ header p {
 ===========================================================*/
 
 #jumbotron {
-    background: url('../media/web_bg2.png') center center;
+    background: url('../medias/web_bg2.png') center center;
     background-size: cover;
     height: 600px;
 }
